@@ -8,7 +8,7 @@ Hello, fellow developers! It's a new year and time for a DevBlog post! I hope 20
 
 #### __Expanding Role of Web Developers__
 
-There are two main roles in web development. There are both front-end and back-end developers. Front-end developers focus on the browser and back-end developers focus on the servers. Through time the job has evolved, but the distinction between front-end and back-end is still largely held. Front-end developers focus on the browser requires them to understand how users use the browser. User's browsers vary in window size, light mode or dark mode, monitors have different properties, such as pixel density, internet speeds can vary, and so much more. When creating products, it's important to consider all of the unknowns. The end user is the most important focal point when designing and developing. 
+There are two main roles in web development. There are both front-end and back-end developers. Front-end developers focus on the browser and back-end developers focus on the servers. Through time the job has evolved, but the distinction between front-end and back-end is still largely held. Front-end developers focus on the browser requires them to understand how users use the browser. User's browsers vary in window size, light mode or dark mode, monitors have different properties, such as pixel density, internet speeds can vary, and so much more. When creating products, it's important to consider all of the unknowns. The end user is the most important focal point when designing and developing.
 
 #### __The Growth of JavaScript__
 
@@ -16,4 +16,4 @@ Front-end developers design for browsers. To design for a browser, developers mu
 
 #### __JavaScript Frameworks__
 
-The developer stack has developed greatly over the past decade. Many older stacks focused soley on back-end technologies. The LAMP stack (Linux, Apache, MySQL, and PHP) only consists of backend technologies. For front-end developers, it means nothing. Stacks have evolved with the rise of JavaScript, however. A popular stack, MEAN (Mongo, Express, Angular, and Node), includes Angular, which is a JavaScript framework and increases conversation about front-end being an important component of the stack. 
+The developer stack has developed greatly over the past decade. Many older stacks focused soley on back-end technologies. The LAMP stack (Linux, Apache, MySQL, and PHP) only consists of backend technologies. For front-end developers, it means nothing. Stacks have evolved with the rise of JavaScript, however. A popular stack, MEAN (Mongo, Express, Angular, and Node), includes Angular, which is a JavaScript framework and increases conversation about front-end being an important component of the stack.
