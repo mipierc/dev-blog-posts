@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>newpost4</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<h2 id="dev-post-4">Dev Post 4</h2>
+<h5 id="author-michael-pierce">Author: Michael Pierce</h5>
+<h6 id="date-1-march-2022">Date: 1 March 2022</h6>
+<h4 id="databases"><strong>Databases</strong></h4>
+<p>With the growing need to store large amounts of data, databases must
+be highly effective at what they are designed to do. There is a large
+variety of different databases. Some of the most commonly used
+include:</p>
+<ul>
+<li>Hierarchical databases</li>
+<li>Network databases</li>
+<li>Object-Oriented databases</li>
+<li>Relational databases</li>
+<li>NoSQL databases</li>
+</ul>
+<h5 id="hierarchical-databases"><strong>Hierarchical
+Databases</strong></h5>
+<p>In hierarchical databases the data is organized into ranks or levels,
+where data is categorized based on a common linkage point. Using a
+university database as an example, students and faculty would be stored
+in a lower rank, and departments would be stored a level higher since
+they share that commonality. A higher ranked table can have multiple
+lower ranked tables, but not the other way around. It is difficult to
+add data to these types of databases since it requires such a lengthy
+traversal though tables.</p>
+<h5 id="network-databases"><strong>Network Databases</strong></h5>
+<p>A network database is a hierarchial database, but the child records
+can be associated with multiple parent records. Using the university
+database from the previous example, a student would be able to be linked
+with both the department and with another higher level record, such as a
+club. Unfortunately with network databases, it is difficult and often
+impossible to alter the database structure due to its complexity.</p>
+<h5 id="object-oriented-databases"><strong>Object-Oriented
+Databases</strong></h5>
+<p>If you’re familiar with Object-Oriented Programming, this database
+structure is easy to relate with. Information stored is represented as
+objects, with each object having data linked to it. For example, the
+university is made up of people. There are students and there are
+faculty. A person may have a name and identification number, and the
+person table can be linked through relationships to other tables, such
+as student and faculty. A student may have a GPA and a professor may
+have a salary. Querying this style database is quick and efficent.</p>
+<h5 id="relational-databases"><strong>Relational Databases</strong></h5>
+<p>Relational databases are considered to be the most mature and are the
+most used in production. In these style databases, every piece of
+information has a relationship with every other piece of information.
+They are used in Web-Ap interfaces to serve as a repository for user
+data. You can use SQL to interact with it, and is easy to understand. It
+is also easy to scale and traverse the database when compared to
+hierarchical databases.</p>
+<h5 id="nosql"><strong>NoSQL</strong></h5>
+<p>NoSQL databases are simple in design. They use different data
+structures than those used in a default relational database and can
+often run faster. It is only suitable in some sitations, however. It is
+easy to scale, but has some major drawbacks. The biggest drawback is
+having a large document size. They also lack a GUI, so interacting with
+them can be more cumbersome. The most popular NoSQL databases include
+MongoDB and Cassandra.</p>
+</body>
+</html>
